@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TextWatchface</string>
+    <string name="message">Watch face tapped</string>
+    <string name="my_watch_name">Text Watchface</string>
+</resources>
