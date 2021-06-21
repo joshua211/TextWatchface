@@ -19,29 +19,20 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     class="android.support.wearable.complications.rendering.ComplicationDrawable"
     app:backgroundColor="@android:color/black"
-    app:borderColor="@color/white"
-    app:borderDashGap="4dp"
-    app:borderDashWidth="1dp"
-    app:borderRadius="50dp"
-    app:borderStyle="dashed"
-    app:borderWidth="3dp"
-    app:highlightColor="@color/dark_red"
-    app:iconColor="@color/dark_blue"
-    app:rangedValuePrimaryColor="@color/dark_red"
-    app:rangedValueRingWidth="1dp"
-    app:rangedValueSecondaryColor="@color/white"
-    app:textColor="@color/white"
+    app:highlightColor="@android:color/holo_red_dark"
+    app:iconColor="@android:color/holo_blue_dark"
+    app:textColor="@android:color/white"
     app:textSize="12sp"
-    app:textTypeface="sans-serif-condensed"
-    app:titleColor="@color/grey"
+    app:textTypeface="montserrat"
+    app:titleColor="@android:color/white"
     app:titleSize="10sp"
-    app:titleTypeface="sans-serif">
+    app:titleTypeface="montserrat">
 
     <ambient
-        app:highlightColor="@color/white"
-        app:iconColor="@color/white"
+        app:highlightColor="@android:color/white"
+        app:iconColor="@android:color/white"
         app:rangedValuePrimaryColor="@color/white"
-        app:titleColor="@color/white"
+        app:titleColor="@android:color/white"
         app:borderColor="@android:color/transparent"
         app:rangedValueSecondaryColor="@android:color/transparent"/>
 </drawable>
